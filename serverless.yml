@@ -1,0 +1,10 @@
+service: lambda-to-check-phone-number
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+
+functions:
+  chp:
+    handler: src/index.handler

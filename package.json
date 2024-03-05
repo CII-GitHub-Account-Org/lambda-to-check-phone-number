@@ -1,0 +1,17 @@
+{
+  "name": "my-lambda-function",
+  "version": "1.0.0",
+  "description": "Lambda function to check if a phone number exists in a DynamoDB table",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "deploy": "serverless deploy"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.938.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "serverless": "^2.48.0"
+  }
+}
